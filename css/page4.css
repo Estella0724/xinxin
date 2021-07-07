@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding:0;
+ }
+
+.Page{
+   width:1215px;
+   height:750px;
+   overflow:hidden;
+   background-color: white;
+}
+
+.Nav{
+   width: 1800px;;
+   height:45px;
+   background-color:rgb(231, 135, 151);
+}
+
+
+.Nav ul {/* 导航区列表定义 */
+   float:left;
+   list-style: none;
+   white-space: nowrap;
+   margin: 0 auto;
+   width: 40px;
+   height: 20px;
+   margin-left: 30px;
+ }
+ 
+ .Nav li {
+   display: inline-block;
+   width: 50px;
+   height: 20px;
+   margin-right: 70px;
+   margin-left: 50px;
+   margin-top:10px;
+ }
+ 
+ a {/* 字体颜色定义 */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ a::hover,a.item{
+     color:grey;
+
+ }
